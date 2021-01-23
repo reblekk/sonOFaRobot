@@ -205,17 +205,3 @@ bot.onText(/\/ocr (.+)/, function(msg, match) {
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-//desolate-hamlet-22449
-//https://desolate-hamlet-22449.herokuapp.com/
