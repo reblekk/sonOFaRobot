@@ -1,5 +1,5 @@
 var TelegramBot = require('node-telegram-bot-api');
-var token = '1572317805:AAHgI3E0vpv5NobNpZA0pkeeLPnvBNMavSQ';
+var token = 
 var bot = new TelegramBot(token, { polling: true });
 //const bot = new Composer
 
@@ -19,8 +19,7 @@ const randomPuppy = require('random-puppy');
 const { OAuth2 } = google.auth
     // Create a new instance of oAuth and set our Client ID & Client Secret.
 const oAuth2Client = new OAuth2(
-    '754364690188-kr7qo3nb3q5gno008dn2grkqsnpk2kro.apps.googleusercontent.com',
-    'phwb5PdK1-Sszyto2LWOFvOq'
+
 )
 
 // Call the setCredentials method on our oAuth2Client instance and set our refresh token.
