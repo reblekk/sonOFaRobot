@@ -24,7 +24,7 @@ const oAuth2Client = new OAuth2(
 
 // Call the setCredentials method on our oAuth2Client instance and set our refresh token.
 oAuth2Client.setCredentials({
-    refresh_token: '1//04QfZTuvoHuN5CgYIARAAGAQSNwF-L9IryindX9yukx5WuuKM-AK7PlhS75gVuMkd4o3z9iAMseWzqck3rCENdKT8Kny6vHZrBFk',
+    refresh_token: '',
 })
 
 
@@ -52,7 +52,7 @@ bot.onText(/\/tmr/, function(msg, match) {
 
     //Function to Show events
     calendar.events.list({
-        calendarId: 'lti2s0ni6l9ndnhp0g35aeld2s@group.calendar.google.com',
+        calendarId: '',
         timeMin: (new Date()).toISOString(),
         timeMax: date,
         maxResults: 10,
@@ -151,7 +151,7 @@ bot.onText(/\/quotes/, function(msg, match) {
     var req = unirest("GET", "https://quotes15.p.rapidapi.com/quotes/random/");
 
     req.headers({
-        "x-rapidapi-key": "0211b597c7mshd42d749ec4d72b1p1505b7jsn04f11f31bb04",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "quotes15.p.rapidapi.com",
         "useQueryString": true
     });
@@ -184,7 +184,7 @@ bot.onText(/\/ocr (.+)/, function(msg, match) {
     });
 
     req.headers({
-        "x-rapidapi-key": "0211b597c7mshd42d749ec4d72b1p1505b7jsn04f11f31bb04",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "ocrly-image-to-text.p.rapidapi.com",
         "useQueryString": true
     });
